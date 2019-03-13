@@ -1,26 +1,25 @@
 {
-  "name": "happycode-coders",
+  "name": "happycodepetropolis.github.io",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "dependencies": {
-    "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "nw": "^0.35.5"
+    "html": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/happycodepetropolis/happycodepetropolis.github.io.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "EltonLeao",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/happycodepetropolis/happycodepetropolis.github.io/issues"
   },
-  "homepage": "happycodepetropolis.github.io",
-  "description": ""
+  "homepage": "https://github.com/happycodepetropolis/happycodepetropolis.github.io#readme"
 }
