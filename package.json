@@ -1,7 +1,6 @@
 {
   "name": "happycodepetropolis.github.io",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.16.4",
@@ -24,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/happycodepetropolis/happycodepetropolis.github.io/issues"
   },
-  "homepage": "https://github.com/happycodepetropolis/happycodepetropolis.github.io#readme"
+  "homepage": "https://github.com/happycodepetropolis/happycodepetropolis.github.io#readme",
+  "description": ""
 }
