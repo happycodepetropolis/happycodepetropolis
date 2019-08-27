@@ -1,0 +1,47 @@
+[debug] [2019-08-27T12:45:07.978Z] ----------------------------------------------------------------------
+[debug] [2019-08-27T12:45:07.981Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Professor\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-08-27T12:45:07.981Z] CLI Version:   7.2.4
+[debug] [2019-08-27T12:45:07.981Z] Platform:      win32
+[debug] [2019-08-27T12:45:07.981Z] Node Version:  v10.15.1
+[debug] [2019-08-27T12:45:07.982Z] Time:          Tue Aug 27 2019 09:45:07 GMT-0300 (GMT-03:00)
+[debug] [2019-08-27T12:45:07.982Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-27T12:45:07.991Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-27T12:45:07.992Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Professor\OneDrive - Happy Code\Desenvolvimento\happycodepetropolis.github.io
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2019-08-27T12:45:53.881Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2019-08-27T12:45:54.903Z] <<< HTTP RESPONSE 400
+[debug] [2019-08-27T12:45:54.903Z] <<< HTTP RESPONSE BODY
+[debug] [2019-08-27T12:45:55.016Z] HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+[debug] [2019-08-27T12:45:55.303Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at module.exports (C:\Users\Professor\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Professor\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\Professor\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.<anonymous> (C:\Users\Professor\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1161:10)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at IncomingMessage.<anonymous> (C:\Users\Professor\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:277:13)
+[error] 
+[error] Error: Failed to create Google Cloud project. See firebase-debug.log for more info.
